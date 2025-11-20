@@ -1,0 +1,59 @@
+{
+  "name": "frontify",
+  "displayName": "Frontify - AI Website Builder",
+  "description": "",
+  "version": "1.0.3",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "publisher": "Vansh91",
+  "activationEvents": [
+    "onCommand:frontify.build",
+  "onCommand:frontify.setup"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+  "commands": [
+    {
+      "command": "frontify.build",
+      "title": "Build Website with Frontify"
+    },
+    {
+      "command": "frontify.setup",
+      "title": "Setup Frontify API Key"
+    }
+  ],
+  "configuration": {
+    "type": "object",
+    "title": "Frontify Configuration",
+    "properties": {
+      "frontify.apiKey": {
+        "type": "string",
+        "default": "",
+        "description": "Your Google Gemini AI API Key"
+      }
+    }
+  }
+},
+  "icon": "images/FrontifyLogo.png",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.106.1",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.1"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "os": "^0.1.2"
+  }
+}
