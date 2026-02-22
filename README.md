@@ -1,5 +1,3 @@
-<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/3b4652ac-8b5b-44c3-a00a-8d799097885f" /># Frontify - AI Website Builder
-
 Build websites instantly using AI directly in VS Code! Just describe what you want and watch your website come to life with a single command.
 
 ## Features
