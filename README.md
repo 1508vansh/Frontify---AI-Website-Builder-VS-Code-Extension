@@ -55,7 +55,7 @@ Frontify adds the following settings to VS Code:
 * `frontify.apiKey`: Your Google Gemini API key (required for AI functionality)
 
 ## Workflow 
-<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/4824beae-c89d-4167-8c63-13eb9356ee0d" />
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/7741bab3-32ae-4745-80fa-9f2f37f29675" />
 
 ## Known Issues
 
